@@ -11,7 +11,7 @@ let text2 = input2.innerText.val;
 
 new Promise((resolve , reject) =>{
 		if(text1.length == 0){
-			return div;
+			output.innerText = ``;
 		}else{
 			setTimeout(() => {
 				btn.addEventListener("click" , ()=>{
